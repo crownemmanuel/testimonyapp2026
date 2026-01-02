@@ -16,7 +16,7 @@ import {
 import { Testimony, LiveTestimony, PhoneLookup, ServiceType, DEFAULT_SERVICES } from "./types";
 
 // Re-export types for convenience
-export type { ServiceType };
+export { type ServiceType };
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
